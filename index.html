@@ -191,7 +191,6 @@
             position: relative;
             padding: 180px 24px 100px;
             text-align: center;
-            overflow: hidden;
             z-index: 1;
         }
 
@@ -201,7 +200,7 @@
             top: 60px;
             left: 50%;
             transform: translateX(-50%);
-            width: 600px;
+            width: min(600px, 100vw);
             height: 600px;
             background: radial-gradient(circle, rgba(255, 102, 89, 0.08) 0%, transparent 60%);
             pointer-events: none;
@@ -1253,7 +1252,7 @@
         </div>
         <div class="trust-item">
             <div class="number">0</div>
-            <div class="label">Tracking</div>
+            <div class="label">Personal Data</div>
         </div>
         <div class="trust-item">
             <div class="number">0</div>
@@ -1264,7 +1263,7 @@
             <div class="label">Species</div>
         </div>
         <div class="trust-item">
-            <div class="number">40+</div>
+            <div class="number">39</div>
             <div class="label">Badges</div>
         </div>
     </div>
@@ -1276,10 +1275,10 @@
         <div class="species-item"><span class="emoji">🐦</span><span class="name">Birds</span></div>
         <div class="species-item"><span class="emoji">🐇</span><span class="name">Rabbits</span></div>
         <div class="species-item"><span class="emoji">🐹</span><span class="name">Hamsters</span></div>
+        <div class="species-item"><span class="emoji">🐹</span><span class="name">Guinea Pigs</span></div>
         <div class="species-item"><span class="emoji">🐟</span><span class="name">Fish</span></div>
-        <div class="species-item"><span class="emoji">🐢</span><span class="name">Turtles</span></div>
         <div class="species-item"><span class="emoji">🦎</span><span class="name">Reptiles</span></div>
-        <div class="species-item"><span class="emoji">🐴</span><span class="name">Horses</span></div>
+        <div class="species-item"><span class="emoji">🐾</span><span class="name">& More</span></div>
     </div>
 
     <!-- ======================== FEATURES ======================== -->
@@ -1368,7 +1367,7 @@
 
                 <div class="gamification-card">
                     <span class="card-emoji">🏆</span>
-                    <div class="card-number">40+</div>
+                    <div class="card-number">39</div>
                     <h3>Badges</h3>
                     <p>Unlock milestone, streak, mastery, and seasonal badges. New ones drop throughout the year.</p>
                 </div>
@@ -1382,7 +1381,7 @@
 
                 <div class="gamification-card">
                     <span class="card-emoji">🎖️</span>
-                    <div class="card-number">6</div>
+                    <div class="card-number">7</div>
                     <h3>Levels</h3>
                     <p>Rise from Newcomer to Legend. Earn XP with every action. Your care level is your pet parent identity.</p>
                 </div>
@@ -1391,7 +1390,7 @@
             <!-- Share Cards -->
             <div style="margin-top: 80px;" class="reveal">
                 <h3 style="text-align: center; font-family: 'DM Serif Display', serif; font-size: 24px; margin-bottom: 12px;">Share every milestone.</h3>
-                <p style="text-align: center; color: var(--text-secondary); font-size: 16px; margin-bottom: 40px;">Six card types. Post to Instagram, iMessage, or anywhere.</p>
+                <p style="text-align: center; color: var(--text-secondary); font-size: 16px; margin-bottom: 40px;">Ten card types. Post to Instagram, iMessage, or anywhere.</p>
 
                 <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
                     <div style="background: var(--bg-card); border: 1px solid rgba(255,255,255,0.04); border-radius: 14px; padding: 20px 24px; text-align: center; min-width: 140px;">
@@ -1594,8 +1593,8 @@
                 </div>
                 <div class="privacy-card">
                     <span class="icon">🚫</span>
-                    <h3>Zero Tracking</h3>
-                    <p>No analytics that identify you. No fingerprinting. No third-party SDKs watching.</p>
+                    <h3>Anonymous Only</h3>
+                    <p>Privacy-first analytics with zero personal data. No fingerprinting. No identifying information. Ever.</p>
                 </div>
                 <div class="privacy-card">
                     <span class="icon">👤</span>
